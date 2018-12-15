@@ -22,7 +22,8 @@ namespace Task01.MathOperations
 			double d3 = 0.1 + 0.2;
 			double d4 = 0.3;
 			double epsilon = 0.000001;
-			Console.WriteLine(d3 - d4 < epsilon);
+			Console.WriteLine(Math.Abs(d3 - d4) < epsilon);
+			Console.ReadLine();
 		}
 	}
 }
