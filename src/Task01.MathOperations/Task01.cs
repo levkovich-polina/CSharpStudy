@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task01.MathOperations
 {
-	class Program
+	class Task01
 	{
 		static void Main(string[] args)
 		{
