@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task03.WaterTemperature", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task04.SimpleTypes", "Task04.SimpleTypes\Task04.SimpleTypes.csproj", "{D653B4F2-9BFF-47C5-847B-35640DA6EF28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task05.Loops", "Task05.Loops\Task05.Loops.csproj", "{FC97C591-35F4-4601-8155-E3F7115DBCFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D653B4F2-9BFF-47C5-847B-35640DA6EF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D653B4F2-9BFF-47C5-847B-35640DA6EF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D653B4F2-9BFF-47C5-847B-35640DA6EF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC97C591-35F4-4601-8155-E3F7115DBCFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC97C591-35F4-4601-8155-E3F7115DBCFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC97C591-35F4-4601-8155-E3F7115DBCFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC97C591-35F4-4601-8155-E3F7115DBCFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,13 +10,17 @@ namespace Task04.SimpleTypes
 	{
 		static void Main(string[] args)
 		{
-			double d1;
+			double d1 = -2.05;
 			float fl1;
 			string str1;
 			bool bool1 = false;
-			int i1;
+			checked
+			{
+				int i1 = 2147483647;
+				i1 = i1 + 1;
+			}
 			byte byte1;
-			char char1;
+			char char1 = 'П';
 
 			bool bool3 = true && true && true && false;
 			bool bool4 = true || false || false; 
