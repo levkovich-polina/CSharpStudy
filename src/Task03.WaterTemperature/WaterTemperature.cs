@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task03.WaterTemperature
 {
-	class Task03
+	class WaterTemperature
 	{
 		static void Main(string[] args)
 		{

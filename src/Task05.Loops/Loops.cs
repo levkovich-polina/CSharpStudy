@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task05.Loops
 {
-    class Task05
+    class Loops
     {
         static void Main(string[] args)
         {

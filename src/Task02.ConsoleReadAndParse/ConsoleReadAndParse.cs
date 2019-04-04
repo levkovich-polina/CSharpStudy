@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task02.ConsoleReadAndParse
 {
-	class Task02
+	class ConsoleReadAndParse
 	{
 		static void Main(string[] args)
 		{
