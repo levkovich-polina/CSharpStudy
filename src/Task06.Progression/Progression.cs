@@ -42,7 +42,7 @@ namespace Task06.Progression
 
             for (int i = 0; i < count; i++)
             {
-                Console.WriteLine(step*number1 + i);
+                Console.WriteLine(step*i + number1);
             }
 
 
