@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E2AE6C4D-02C7-493E-BF22-90D30DCA27CB}</ProjectGuid>
+    <ProjectGuid>{8A6C253B-0CC8-4285-81CC-33A412595C29}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Begin4</RootNamespace>
-    <AssemblyName>Begin4</AssemblyName>
+    <RootNamespace>Begin13</RootNamespace>
+    <AssemblyName>Begin13</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Begin4.cs" />
+    <Compile Include="Begin13.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
