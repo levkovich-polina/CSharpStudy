@@ -10,13 +10,9 @@ namespace Begin18
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите сторону A");
+            Console.WriteLine("Введите точку  A");
             int side1 = int.Parse(Console.ReadLine());
-            if (side1 < 0)
-            {
-                Console.WriteLine("Вы ввели отрицательное число. Сторона не может быть отрицательным");
-                return;
-            }
+            
 
             Console.WriteLine("Введите сторону C");
             int side2 = int.Parse(Console.ReadLine());
@@ -37,9 +33,9 @@ namespace Begin18
            
 
             int a = side2 - side1;
-            Console.WriteLine($"AC={a}");
+            
             int b = side3 - side2;
-            Console.WriteLine($"BC={b}");
+            Console.WriteLine($"AC*BC={b*a}");
 
             Console.ReadLine();
         }
