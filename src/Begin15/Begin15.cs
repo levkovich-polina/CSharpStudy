@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Begin15
 {
@@ -19,12 +15,11 @@ namespace Begin15
             }
 
             double p = 3.14;
-            double d1 = Math.Sqrt((square * 4)/p);
-            Console.WriteLine($"D={d1}");
+            double diameter = Math.Sqrt((square * 4) / p);
+            Console.WriteLine($"D={diameter}");
 
-            double l1 = p * d1;
-            Console.WriteLine($"L={l1}");
-
+            double length = p * diameter;
+            Console.WriteLine($"L={length}");
 
             Console.ReadLine();
         }
