@@ -14,7 +14,7 @@ namespace Integer4
             int a = int.Parse(Console.ReadLine());
             if (a < 0)
             {
-                Console.WriteLine("Число A не должен быть равен 0");
+                Console.WriteLine("Число A должно быть неотрицательным");
                 return;
             }
             Console.WriteLine("Введите число B");

@@ -11,15 +11,15 @@ namespace Integer1
         static void Main(string[] args)
         {
             Console.WriteLine("Введите расстояние в сантиметрах");
-            int l = int.Parse(Console.ReadLine());
-            if (l < 0)
+            int lengthInCentimeters = int.Parse(Console.ReadLine());
+            if (lengthInCentimeters < 0)
             {
                 Console.WriteLine("Расстояние не может быть отрицательным");
                 return;
             }
 
-            int lenght = l / 100;
-            Console.WriteLine($"{l} сантиметров = {lenght} метров");
+            int lengthInMeters = lengthInCentimeters / 100;
+            Console.WriteLine($"{lengthInCentimeters} сантиметров = {lengthInMeters} метров");
             Console.ReadLine();
 
         }
