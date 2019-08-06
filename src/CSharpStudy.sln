@@ -85,6 +85,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Boolean", "Boolean", "{4181
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boolean02", "Boolean02\Boolean02.csproj", "{DA938A04-1A5E-4E70-A7DF-7752C7F50B0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boolean6", "Boolean6\Boolean6.csproj", "{F3211BA6-4332-4D29-B3FC-CFA306AF7B7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -235,6 +237,10 @@ Global
 		{DA938A04-1A5E-4E70-A7DF-7752C7F50B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA938A04-1A5E-4E70-A7DF-7752C7F50B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA938A04-1A5E-4E70-A7DF-7752C7F50B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3211BA6-4332-4D29-B3FC-CFA306AF7B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3211BA6-4332-4D29-B3FC-CFA306AF7B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3211BA6-4332-4D29-B3FC-CFA306AF7B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3211BA6-4332-4D29-B3FC-CFA306AF7B7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
