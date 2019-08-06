@@ -17,10 +17,10 @@ namespace Boolean12
             Console.WriteLine("Введите число C");
             var c = int.Parse(Console.ReadLine());
 
-            bool isAOdd = a > 0;
-            bool isBOdd = b > 0;
-            bool isCOdd = c > 0;
-            bool areAllNumbersPositive = isAOdd && isBOdd && isCOdd;
+            bool isAPositive = a > 0;
+            bool isBPositive = b > 0;
+            bool isCPositive = c > 0;
+            bool areAllNumbersPositive = isAPositive && isBPositive && isCPositive;
 
             Console.WriteLine($"Является каждое из чисел положительным?  - {areAllNumbersPositive}");
             Console.ReadLine();
