@@ -14,10 +14,9 @@ namespace Boolean28
             Console.WriteLine("Введите число Y");
             var y = int.Parse(Console.ReadLine());
 
-            bool pointWithCoordinateXYLiesinTheFirstOrThirdCoordinateQuarter = ((x < 0) && (y < 0))||((x>0)&&(y>0));
-            Console.WriteLine($"Точка с координатами (x,y) лежит в первой или третьей координатной четверти?-{pointWithCoordinateXYLiesinTheFirstOrThirdCoordinateQuarter}");
+            bool isPointInFirstOrThirdCoordinateQuarter = ((x < 0) && (y < 0)) || ((x > 0) && (y > 0));
+            Console.WriteLine($"Точка с координатами (x,y) лежит в первой или третьей координатной четверти?-{isPointInFirstOrThirdCoordinateQuarter}");
             Console.ReadLine();
-
         }
     }
 }

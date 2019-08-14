@@ -14,10 +14,9 @@ namespace Boolean25
             Console.WriteLine("Введите число Y");
             var y = int.Parse(Console.ReadLine());
 
-            bool pointWithCoordinateXYLiesInTheSecondCoordinateQuarter = (x < 0) && (y > 0);
-            Console.WriteLine($"Точка с координатами (x,y) лежит во второй координатной четверти?-{pointWithCoordinateXYLiesInTheSecondCoordinateQuarter}");
+            bool isPointInSecondCoordinateQuarter = (x < 0) && (y > 0);
+            Console.WriteLine($"Точка с координатами (x,y) лежит во второй координатной четверти?-{isPointInSecondCoordinateQuarter}");
             Console.ReadLine();
-
         }
     }
 }
