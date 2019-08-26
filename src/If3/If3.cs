@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Xml.Linq;
 
 namespace If3
 {
-    class Program
+    class If3
     {
         static void Main(string[] args)
         {
@@ -11,17 +10,15 @@ namespace If3
 
             Console.WriteLine("Введите число");
             var x = double.Parse(Console.ReadLine());
-            if (x > 1)
+            if (x > 0)
             {
                 x = x + 1;
             }
-
-            if (x < -1)
+            else if (x < 0)
             {
                 x = x - 2;
             }
-
-            if (x == 0)
+            else
             {
                 x = 10;
             }
