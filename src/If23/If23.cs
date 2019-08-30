@@ -39,12 +39,18 @@ namespace If23
             {
                 x4 = x2;
             }
-            else
+            else if (x2 == x3)
             {
                 x4 = x1;
             }
+            else
+            {
+                Console.WriteLine($"Неправильные координаты x");
+                return;
+            }
 
             int y4;
+
             if (y1 == y2)
             {
                 y4 = y3;
@@ -53,19 +59,17 @@ namespace If23
             {
                 y4 = y2;
             }
-            else
+            else if (y2 == y3)
             {
                 y4 = y1;
             }
-
-            if ((x1 == x2 || x1 == x3 || x2 == x3) && (y1 == y2 || y1 == y3 || y2 == y3))
-            {
-                Console.WriteLine($"Координата четвертой вершины {x4};{y4}");
-            }
             else
             {
-                Console.WriteLine($"Неправильный прямоугольник");
+                Console.WriteLine($"Неправильные координаты y");
+                return;
             }
+
+            Console.WriteLine($"Координаты 4oй вершины равны {x4};{y4}");
 
             Console.ReadLine();
         }
