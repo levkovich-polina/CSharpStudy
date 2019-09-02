@@ -14,23 +14,22 @@ namespace If23
 
             Console.WriteLine("Введите координату Y1");
             var y1 = int.Parse(Console.ReadLine());
-            ;
 
             Console.WriteLine("Введите координату X2");
             var x2 = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Введите координату Y2");
             var y2 = int.Parse(Console.ReadLine());
-            ;
 
             Console.WriteLine("Введите координату X3");
             var x3 = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Введите координату Y3");
             var y3 = int.Parse(Console.ReadLine());
-            ;
 
-            int x4;
+            bool isRectangleExist = true;
+
+            int x4 = 0;
             if (x1 == x2)
             {
                 x4 = x3;
@@ -45,31 +44,38 @@ namespace If23
             }
             else
             {
-                Console.WriteLine($"Неправильные координаты x");
-                return;
+                isRectangleExist = false;
             }
 
-            int y4;
+            int y4 = 0;
+            if (isRectangleExist)
+            {
+                if (y1 == y2)
+                {
+                    y4 = y3;
+                }
+                else if (y1 == y3)
+                {
+                    y4 = y2;
+                }
+                else if (y2 == y3)
+                {
+                    y4 = y1;
+                }
+                else
+                {
+                    isRectangleExist = false;
+                }
+            }
 
-            if (y1 == y2)
+            if (isRectangleExist)
             {
-                y4 = y3;
-            }
-            else if (y1 == y3)
-            {
-                y4 = y2;
-            }
-            else if (y2 == y3)
-            {
-                y4 = y1;
+                Console.WriteLine($"Координаты 4oй вершины равны ({x4};{y4})");
             }
             else
             {
-                Console.WriteLine($"Неправильные координаты y");
-                return;
+                Console.WriteLine($"Не существует прямоугольника с вершинами ({x1};{y1}), ({x2};{y2}) и ({x3};{y3}), стороны которого параллельны осям координат.");
             }
-
-            Console.WriteLine($"Координаты 4oй вершины равны {x4};{y4}");
 
             Console.ReadLine();
         }
