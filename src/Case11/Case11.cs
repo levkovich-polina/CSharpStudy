@@ -36,32 +36,37 @@ namespace Case11
                 return;
             }
 
-            Console.WriteLine("Введите команду");
-            Console.WriteLine("1 - поворот налево");
-            Console.WriteLine("-1 - поворот направо");
-            Console.WriteLine("2 - поворот на 180 градусов");
-            var operation = int.Parse(Console.ReadLine());
+            int finalWay = way;
+            for (int i = 0; i < 2; i++)
+            {
+                Console.WriteLine($"Введите команду {i + 1}");
+                Console.WriteLine("1 - поворот налево");
+                Console.WriteLine("-1 - поворот направо");
+                Console.WriteLine("2 - поворот на 180 градусов");
+                var operation = int.Parse(Console.ReadLine());
 
-            int command;
-            if (operation == 1)
-            {
-                command = -1;
-            }
-            else if (operation == -1)
-            {
-                command = 1;
-            }
-            else if (operation == 2)
-            {
-                command = 2;
-            }
-            else
-            {
-                Console.WriteLine($"Команда '{operation}' не является допустимой");
-                return;
+                int command;
+                if (operation == 1)
+                {
+                    command = -1;
+                }
+                else if (operation == -1)
+                {
+                    command = 1;
+                }
+                else if (operation == 2)
+                {
+                    command = 2;
+                }
+                else
+                {
+                    Console.WriteLine($"Команда '{operation}' не является допустимой");
+                    return;
+                }
+
+                finalWay = (finalWay + command) % 4;
             }
 
-            int finalWay = (way + command) % 4;
             if (finalWay == 0)
             {
                 Console.WriteLine("Орентирован на Север");
