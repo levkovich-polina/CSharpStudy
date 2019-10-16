@@ -9,7 +9,7 @@ namespace For11
             Console.WriteLine("Введите целое число N");
             var n = int.Parse(Console.ReadLine());
 
-            if (n < 0)
+            if (n <= 0)
             {
                 Console.WriteLine("Число N должно быть больше 0");
                 return;
