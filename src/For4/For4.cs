@@ -7,7 +7,7 @@ namespace For4
         static void Main(string[] args)
         {
             Console.WriteLine("Введите цену за 1 кг");
-            var price = int.Parse(Console.ReadLine());
+            var price = double.Parse(Console.ReadLine());
             if (price <= 0)
             {
                 Console.WriteLine("Число должно быть больше 0");
