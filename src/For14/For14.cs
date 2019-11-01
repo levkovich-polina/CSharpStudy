@@ -18,7 +18,7 @@ namespace For14
             int square = 0;
             for (int i = 1; i <= n; i++)
             {
-                square = square + (2 * i + 1);
+                square = square + (2 * i - 1);
             }
 
             Console.WriteLine(square);
