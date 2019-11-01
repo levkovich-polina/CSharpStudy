@@ -187,6 +187,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For11", "For11\For11.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task08.Polymorph", "Task08.Polymorph\Task08.Polymorph.csproj", "{DC3FBFAA-1A9E-47BB-8D53-121A84AC754F}"
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For14", "For14\For14.csproj", "{C618CBE7-29D6-490A-B2DD-EAB1B25C7618}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For16", "For16\For16.csproj", "{62378B15-5F88-4638-A82C-C2898DC600D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -534,6 +535,10 @@ Global
 		{C618CBE7-29D6-490A-B2DD-EAB1B25C7618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C618CBE7-29D6-490A-B2DD-EAB1B25C7618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C618CBE7-29D6-490A-B2DD-EAB1B25C7618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62378B15-5F88-4638-A82C-C2898DC600D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62378B15-5F88-4638-A82C-C2898DC600D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62378B15-5F88-4638-A82C-C2898DC600D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62378B15-5F88-4638-A82C-C2898DC600D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
