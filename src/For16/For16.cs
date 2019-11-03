@@ -21,9 +21,10 @@ namespace For16
             double number = 1;
             for (int i = 1; i <= n; i++)
             {
-                number = number*a;
+                number = number * a;
+                Console.WriteLine($"Число {a} в степени {i} = {number}");
             }
-            Console.WriteLine(number);
+            
             Console.ReadLine();
         }
     }
