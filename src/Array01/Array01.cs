@@ -14,11 +14,25 @@ namespace Array01
                 return;
             }
 
+            int[] array = new int[n];
+
             for (int i = 0; i < n; i++)
             {
                 int a;
                 a = 2 * i + 1;
-                Console.WriteLine($"x[{i}] = {a}");
+                array[i] = a;
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("x[");
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.Write(i);
+                Console.ResetColor();
+                Console.Write("] = ");
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine(array[i]);
+                Console.ResetColor();
             }
         }
     }
