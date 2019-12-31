@@ -9,26 +9,35 @@ namespace Array51
             Console.WriteLine("Введите размер N ");
             var n = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Введите массив A");
-            var a = int.Parse(Console.ReadLine());
-           
-            Console.WriteLine("Введите миссив B");
-            var b = int.Parse(Console.ReadLine());
-            
-            int[] array = new int[a];
-            for ( int i = 0; i < n; ++i)
+            int[] array1 = new int[n];
+            int[] array2 = new int[n];
+
+            Random random = new Random();
+            for (int i = 0; i < n; i++)
             {
-                int a1;
-                a1 = b;
-                Console.WriteLine($"a1[{i}]={a1}");
-                array[i] = a1;
+                array1[i] = random.Next(0, 100);
             }
-            for (int i = 0; i < n; ++i)
+
+            for (int i = 0; i < n; i++)
             {
-                int b1;
-                b1 = a;
-                Console.WriteLine($"b1[{i}]={a}");
-                array[i] = b1;
+                array2[i] = random.Next(100, 200);
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine($"a[{i}]={array1[i]}; b[{i}]={array2[i]}");
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                int temp = array1[i];
+                array1[i] = array2[i];
+                array2[i] = temp;
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine($"a[{i}]={array1[i]}; b[{i}]={array2[i]}");
             }
         }
     }
