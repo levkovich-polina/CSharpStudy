@@ -23,7 +23,7 @@ namespace Array03
             int[] array = new int[n];
             for (int i = 0; i < n; i++)
             {
-                array[i] = array[i]+d;
+                array[i] = a+i*d;
             }
 
             for (int i = 0; i < n; i++)
